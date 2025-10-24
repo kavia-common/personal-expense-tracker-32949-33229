@@ -1,0 +1,26 @@
+:root {
+  --ocean-primary: #3b82f6;   /* Blue 500 */
+  --ocean-secondary: #64748b; /* Slate 500 */
+  --ocean-success: #06b6d4;   /* Cyan 500 */
+  --ocean-error: #EF4444;     /* Red 500 */
+  --ocean-surface: #ffffff;
+  --ocean-background: #f9fafb;
+  --ocean-text: #111827;
+
+  /* Map to base tokens used in App.css */
+  --bg-primary: var(--ocean-background);
+  --bg-secondary: var(--ocean-surface);
+  --text-primary: var(--ocean-text);
+  --text-secondary: #3b82f6;
+  --border-color: rgba(17,24,39,.12);
+  --button-bg: var(--ocean-primary);
+  --button-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --ocean-background: #0b1220;
+  --ocean-surface: #0e1526;
+  --ocean-text: #e5e7eb;
+  --text-secondary: #60a5fa;
+  --border-color: rgba(255,255,255,.08);
+}
